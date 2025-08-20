@@ -234,7 +234,7 @@ st.markdown("""
 # Inicialización del estado
 # Ruta de imágenes: ahora configurable y guardada en session_state
 if 'ruta_imgs' not in st.session_state:
-    st.session_state.ruta_imgs = r"C:\Users\ultra\OneDrive\Escritorio\USEFUL_SCRIPTS\BLACKJACK_APP\imgs_cartas"
+    st.session_state.ruta_imgs = os.path.join(os.path.dirname(__file__), "imgs_cartas")
 
 # Contadores de sesión y flags
 for key, val in {
@@ -857,3 +857,4 @@ with st.sidebar:
     c3.metric("Pushes", st.session_state.pushes)
     c4.metric("Losses", st.session_state.losses)
     st.caption(f"Winrate sesión: **{wr:.1f}%**")
+

@@ -13,6 +13,7 @@ Este es un simulador interactivo de Blackjack desarrollado con **Python + Stream
 -  Sugerencias en vivo basadas en **estrategia básica + true count** con conteo de cartas y `true count`
 -  Simulaciones rápidas con porcentaje de victoria
 -  Renderizado de cartas con imágenes reales estilo casino
+-  Aplicación para jugarlo en línea [¡Juega aquí!](https://blackjack-trainer.streamlit.app/)
 
 ---
 

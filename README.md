@@ -2,8 +2,6 @@
 
 Este es un simulador interactivo de Blackjack desarrollado con **Python + Streamlit**, ideal para entrenar estrategia básica, conteo de cartas y simular resultados de forma visual y profesional.
 
-![Blackjack App](imgs_cartas/card_back.png)
-
 ---
 
 ## 🚀 Funcionalidades

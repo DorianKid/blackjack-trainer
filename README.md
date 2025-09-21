@@ -1,4 +1,6 @@
 # 🃏 Blackjack Trainer - Streamlit App
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Made with: Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-blue)](https://streamlit.io/)
 
 Este es un simulador interactivo de Blackjack desarrollado con **Python + Streamlit**, ideal para entrenar estrategia básica, conteo de cartas y simular resultados de forma visual y profesional.
 
